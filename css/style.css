@@ -58,21 +58,20 @@ h3 {
   --dark-black: #000000;
 }
 
-
-/*Доработать*/
 .visually-hidden {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0 !important;
-  border: 0 !important;
-  height: 1px !important;
-  width: 1px !important;
+  position: absolute;
+  padding: 0;
+  height: 1px;
+  width: 1px;
   overflow: hidden;
 }
 
 a {
   text-decoration: none;
+}
+
+p {
+  margin: 0;
 }
 
 .list-reset {
@@ -116,9 +115,9 @@ a {
 }
 
 .container {
-  min-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
-  padding: 0 5cd5px;
+  padding: 0 15px;
 }
 
 /* header */
@@ -189,7 +188,7 @@ a {
 /* special */
 
 .special {
-  padding-top: 70px;
+  margin-top: 70px;
 }
 
 .special__heading {
@@ -266,8 +265,8 @@ a {
 
 /* about */
 .about {
-  padding-top: 70px;
-  padding-bottom: 9px;
+  margin-top: 70px;
+  margin-bottom: 9px;
 }
 
 .about__heading {
@@ -285,8 +284,8 @@ a {
 /* service */
 
 .service {
-  padding-top: 35px;
-  padding-bottom: 35px;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 
 .service__heading {
@@ -336,7 +335,7 @@ a {
 /* advantages */
 
 .advantages {
-  padding-top: 36px;
+  margin-top: 36px;
 }
 
 .advantages__heading {
@@ -352,7 +351,7 @@ a {
 .advantages__item {
   width: 275px;
   min-height: 275px;
-  padding: 98px 42px 41px 45px;
+  padding: 115px 42px 41px 45px;
   border-radius: 15px;
   background-repeat: no-repeat;
   background-position: 20% 20%;
@@ -370,8 +369,8 @@ a {
 /* accommodation */
 
 .accommodation {
-  padding-top: 69px;
-  padding-bottom: 30px;
+  margin-top: 69px;
+  margin-bottom: 30px;
 }
 
 .accommodation__heading {
